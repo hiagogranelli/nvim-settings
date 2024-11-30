@@ -28,6 +28,7 @@ return {
       -- list of servers for mason to install
       ensure_installed = {
         "ts_ls",
+        "gopls",
         "html",
         "cssls",
         "tailwindcss",
@@ -48,6 +49,12 @@ return {
         "black", -- python formatter
         "pylint",
         "eslint_d",
+        "golangci-lint",
+        "golangci-lint-langserver",
+        "golines",
+        "gotests",
+        "gomodifytags",
+        "gofumpt",
       },
     })
   end,
